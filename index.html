@@ -1,199 +1,843 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900"
+      rel="stylesheet"
+    />
 
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    <title>Minsoo Kim -- minsookim.me </title>
+<!--
+Reflux Template
+https://templatemo.com/tm-531-reflux
+-->
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
 
-<head>
-     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="assets/css/fontawesome.css" />
+    <link rel="stylesheet" href="assets/css/templatemo-style.css" />
+    <link rel="stylesheet" href="assets/css/owl.css" />
+    <link rel="stylesheet" href="assets/css/lightbox.css" />
+  </head>
 
-     <title>Minsoo Kim</title>
-
-     <style type="text/css">
-        * { margin: 0; padding: 0; }
-        body { font: 16px Helvetica, Sans-Serif; line-height: 24px; background: url(images/noise.jpg); }
-        .clear { clear: both; }
-        #page-wrap { width: 800px; margin: 40px auto 60px; }
-        #pic { float: right; margin: -30px 0 0 0; }
-        h1 { margin: 0 0 16px 0; padding: 0 0 16px 0; font-size: 42px; font-weight: bold; letter-spacing: -2px; border-bottom: 1px solid #999; }
-        h2 { font-size: 18px; margin: 0 0 6px 0; position: relative; }
-        h2 span { position: absolute; bottom: 0; right: 0; font-style: italic; font-family: Georgia, Serif; font-size: 16px; color: #999; font-weight: normal; }
-        p { margin: 0 0 16px 0; }
-        a { color: #999; text-decoration: none; border-bottom: 1px dotted #999; }
-        a:hover { border-bottom-style: solid; color: black; }
-        ul { margin: 0 0 32px 17px; }
-        #objective { width: 500px; float: left; }
-        #objective p { font-family: Georgia, Serif; font-style: italic; color: #666; }
-        dt { font-style: italic; font-weight: bold; font-size: 18px; text-align: right; padding: 0 26px 0 0; width: 150px; float: left; height: 100px; border-right: 1px solid #999;  }
-        dd { width: 600px; float: right; }
-        dd.clear { float: none; margin: 0; height: 15px; }
-     </style>
-</head>
-
-<body>
-
-    <div id="page-wrap">
-    
-        <img src="images/minsoo.png" alt="Photo of Minsoo" id="pic" width="30%" height="30%"/>
-    
-        <div id="contact-info" class="vcard">
-        
-            <!-- Microformats! -->
-        
-            <h1 class="fn">Minsoo Kim</h1>
-        
-            <p>
-                Address: 2144 EBU3 CSE UCSD, La Jolla, CA, 92093, USA <br />
-                Email: <a class="email" href="mailto:mik226@ucsd.edu">mik226@ucsd.edu</a>
-            </p>
+  <body>
+    <div id="page-wraper">
+      <!-- Sidebar Menu -->
+      <div class="responsive-nav">
+        <i class="fa fa-bars" id="menu-toggle"></i>
+        <div id="menu" class="menu">
+          <i class="fa fa-times" id="menu-close"></i>
+          <div class="container">
+            <div class="image">
+                </br>
+              <img src="assets/images/minsoo_profile.png" alt="" />
+              <!--<a href="#"><img src="assets/images/minsoo_profile.png" alt="" /></a>-->
+            </div>
+            <div class="author-content">
+              <h4>Minsoo Kim</h4>
+              <span>Ph.D. Student at UC San Diego</span></br>
+              <!--<span>E-mail: <u><a href="mailto:mik226@ucsd.edu">mik226@ucsd.edu</a></u></span>-->
+            </div>
+            <nav class="main-nav" role="navigation">
+              <ul class="main-menu">
+                <li><a href="#section1">About Me</a></li>
+                <li><a href="#section2">Research</a></li>
+                <li><a href="#section3">Publications</a></li>
+                <li><a href="#section4">Contact Me</a></li>
+                <li><a href="#section5">Blog</a></li>
+              </ul>
+            </nav>
+            <div class="social-network">
+              <ul class="soial-icons">
+                <!--<li>
+                  <a href="https://www.facebook.com/bludrm"
+                    ><i class="fa fa-facebook"></i
+                  ></a>
+                </li>-->
+                <li>
+                  <a href="https://github.com/mik226" target="_blank"><i class="fa fa-github"></i></a>
+                </li>
+                <li>
+                  <a href="https://www.linkedin.com/in/minsoo-kim-4289abb8" target="_blank"><i class="fa fa-linkedin"></i></a>
+                </li>
+                <li>
+                  <a href="https://scholar.google.com/citations?user=px_99ZUAAAAJ" target="_blank"><i class="fa fa-google"></i></a>
+                </li>
+                <!--<li>
+                  <a href="#"><i class="fa fa-rss"></i></a>
+                </li>-->
+              </ul>
+            </div>
+            <div class="copyright-text">
+                <p>Copyright 2019 Reflux Design</br>
+                <i>Latest Update: April 6, 2021</i></p>
+            </div>
+          </div>
         </div>
-                
-        <div id="objective">
-            <p>
-                I am a PhD student at UC San Diego, looking for a full-time position (starting in 2022) in digital VLSI physical design 
-                and electronic design automation (EDA) area. My research interests lie in manufacturing-aware physical design methodologies, design-technology co-
-optimization (DTCO), machine learning-based prediction and optimization for physical design, open-source RTL to GDS tools (placement, CTS, routing) and signoff methodologies. 
-            </p>
+      </div>
+
+      <section class="section about-me" data-section="section1">
+        <div class="container">
+          <div class="section-heading">
+            <h2>About Me</h2>
+            <div class="line-dec"></div>
+            <span
+              >I am a PhD student at UC San Diego, looking for a full-time position (starting in 2022) in the
+              digital VLSI physical design and the Electronic Design Automation (EDA) area.
+              I currently research at VLSI CAD Laboratory (ABKGroup) under the supervision of Prof. Andrew B. Kahng.
+              Before joining UCSD, I worked in the Design Technology team at Samsung as a physical design
+              engineer and developed physical design methodologies for advanced technology nodes 
+              (Samsung Foundry 7, 8, 10, 14 and 28nm technologies).
+              </span
+            >
+          </div>
+
+          <h4>Education</h4>
+
+          <div class="row">
+            <div class="col-md-12">
+                <div class="service-item">
+                  <div class="ucsd-icon service-icon"></div>
+                  <h5>University of California, San Diego (UCSD) <p>La Jolla, CA &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sep. 2017 ~ Present</p></h5>
+                  <h6>Ph.D., Electrical and Computer Engineering</br>
+                      Advisor: <a href="https://vlsicad.ucsd.edu/~abk" target="_blank">Prof. Andrew B. Kahng</a></br>
+                      Lab Website: <a href="https://vlsicad.ucsd.edu" target="_blank">https://vlsicad.ucsd.edu</a></h6>
+            </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-12">
+                <div class="service-item">
+                  <div class="kaist-icon service-icon"></div>
+                  <h5>Korea Advanced Institute of Science and Technology (KAIST) <p>Daejeon, Korea &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Feb. 2011 ~ Feb. 2013</p></h5>
+                  <h6>M.S., Electrical Engineering</br>
+                      Advisor: Prof. Chong-Min Kyung</br></br>
+                      Thesis: An Efficient Energy Management for Solar-Powered Wireless Visual Sensor Networks</h6>
+                </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-12">
+                <div class="service-item">
+                  <div class="yonsei-icon service-icon"></div>
+                  <h5>Yonsei University <p>Seoul, Korea &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mar. 2004 ~ Feb. 2011</p></h5>
+                  <h6>B.S., Electrical Engineering</br></br>
+                  **Academic leave for military service (The Republic of Korea Air Force) from 2006 to 2008</h6>
+                </div>
+            </div>
+          </div>
+
+          </br></br>
+
+          <h4>Technical Experiences</h4>
+
+          <div class="row">
+            <div class="col-md-12">
+                <div class="service-item">
+                  <div class="ucsd-icon service-icon"></div>
+                  <h5>Graduate Student Researcher</h5>
+                  <h6>La Jolla, CA &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sep. 2017 - Present</br>
+                  VLSI CAD Laboratory, UC San Diego (UCSD)</h6>
+                  <p>- Research for technology-aware leakage optimization and placement methodology for advanced
+                    technologies </br>
+                    - Research for power delivery networks (power stapling) to mitigate IR-drop for advanced
+                    technologies </br>
+                    - Design-Technology Co-Optimization (DTCO) methodology development</br>
+                    - Open-sourcing research project (OpenROAD, Open-source RTL-to-GDS) (<a
+                        href="https://theopenroadproject.org/" target="_blank">https://theopenroadproject.org/</a>) supported by DARPA </br>
+                    - Machine learning (ML)-based power delivery network (PDN) design and ML-based pathfinding at advanced nodes (sub-3nm)</br>
+                    - Work with industry collaborators at Qualcomm, Samsung, Intel, Arm, NXP and the
+                    C-DEN center (<a href="http://cden.ucsd.edu" target="_blank">http://cden.ucsd.edu</a>)</br>
+                    - Experienced with 7, 12, 14, 16, 28, 45, 65 and 130nm technologies from multiple academia/industry
+                    PDKs </br>
+                    - Teaching Assistant (TA) for VLSI Integrated Circuits and Systems Design
+                  (ECE260B/CSE241A) in Winter 2019 
+                  (<a href="https://mik226.github.io/Kim_Minsoo_Student_IA_Evaluation_ECE260B_WI19.pdf"
+                      target="_blank">TA Evaluation</a>)</br>
+                  </p>
+                </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-12">
+                <div class="service-item">
+                  <div class="cdns-icon service-icon"></div>
+                  <h5>Software Intern</h5>
+                  <h6>Austin, TX &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Jun. 2020 - Sep. 2020</br>
+                  Digital and Signoff Group, Cadence Design Systems</h6>
+                  <p>- Developed buffering methodologies for detailed balancing of clock trees in clock tree
+                  synthesis stage (ccopt, Innovus)
+                  </p>
+                </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-12">
+                <div class="service-item">
+                  <div class="sec-icon service-icon"></div>
+                  <h5>Physical Design Engineer</h5>
+                  <h6>Hwaseong-si, Korea &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Feb. 2013 - Jul. 2017</br>
+                  Design Technology Team, Foundary Business, Samsung Electronics</h6>
+                  <p> - Physical design methodology development for Samsung 7/8/10/14/28nm FinFET technology nodes</br>
+                    - Responsible for internal reference (golden) flow scripts and routing technology files
+                    of Synopsys IC Complier and IC Compiler II</br>
+                    - Complex design rule support in physical design (automatic place-and-route tools) for advanced technology nodes</br>
+                    - Technical support and technology files for Samsung foundry customers (Qualcomm, NVIDIA, AMD, ST Microelectronics, etc.)</br>
+                    - Collaboration with EDA companies (Cadence, Synopsys and Mentor Graphics) for tool development at advanced technology nodes</br>
+                    - Experienced multiple SoC projects for design verification (timing and physical signoff)</br>
+                    - Physical design and tapeout of multi-million instance designs for the world-first Samsung 10nm SoC project</br>
+                  </p>
+                </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-12">
+                <div class="service-item">
+                  <div class="kaist-icon service-icon"></div>
+                  <h5>Graduate Student Researcher</h5>
+                  <h6>Daejeon, Korea &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Feb. 2011 - Feb. 2013</br>
+                  Smart Sensor Architecture Laboratory, KAIST</h6>
+                  <p>- Research for an energy management scheme of camera systems with solar-powered batteries in
+                  wireless visual sensor networks
+                  </p>
+                </div>
+            </div>
+          </div>
+
+          <!--<div class="left-image-post">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="left-image">
+                  <img src="assets/images/left-image.jpg" alt="" />
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="right-text">
+                  <h4>Reflux HTML CSS Template</h4>
+                  <p>
+                    Donec tristique feugiat lacus, at sollicitudin nunc euismod
+                    sed. Mauris viverra, erat non sagittis gravida, elit dui
+                    mollis ante, sit amet eleifend purus ligula eget eros. Sed
+                    tincidunt quam vitae neque pharetra dignissim eget ut
+                    libero.
+                  </p>
+                  <div class="white-button">
+                    <a href="#">Read More</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>-->
+          <!--<div class="right-image-post">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="left-text">
+                  <h4>Sed sagittis rhoncus velit</h4>
+                  <p>
+                    Pellentesque habitant morbi tristique senectus et netus et
+                    malesuada fames ac turpis egestas. Vestibulum fermentum
+                    eleifend nibh, vitae sodales elit finibus pretium.
+                    Suspendisse potenti. Ut sollicitudin risus a sollicitudin
+                    semper.
+                  </p>
+                  <div class="white-button">
+                    <a href="#">Read More</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="right-image">
+                  <img src="assets/images/right-image.jpg" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>-->
         </div>
-        
-        <div class="clear"></div>
-        
-        <dl>
-            <dd class="clear"></dd>
-            
-            <dt>Education</dt>
-            <dd>
-                <h2>University of California, San Diego (UCSD) <span>Sep. 2017 - Present</span></h2>
-                <p>Ph.D., Electrical and Computer Engineering<br />
-                   Advisor: Prof. Andrew B. Kahng</p>
-                 
-                <h2>Korea Advanced Institute of Science <br />and Technology (KAIST) <span>Feb. 2011 - Feb. 2013</span></h2>
-                <p>M.S., Electrical Engineering <br />
-                   Advisor: Prof. Chong-Min Kyung</p>
-                 
-                <h2>Yonsei University <span>Mar. 2004 - Feb. 2011</span></h2>
-                <p>B.S., Electrical and Electronic Engineering</p>
-            </dd>
-            
-            <dd class="clear"></dd>
-            
-            <dt>Technical Experiences</dt>
-            <dd>
-                <h2>Graduate Student Researcher <span>Sep. 2017 - Present</span></h2>
-                <p>VLSI CAD Laboratory, University of California, San Diego (UCSD)</p>
-                <ul>
-                  <li> Research for a manufacturing-aware leakage optimization and placement methodology for advanced
-                    technologies </li>
-                  <li> Research for power delivery networks (power stapling) to mitigate IR-drop for advanced technologies </li>
-                  <li> Research for a use of multi-bit combinational cells in design </li>
-                  <li> Currently working on an open-sourcing research project (OpenROAD) supported by DARPA (URL: <a href="https://theopenroadproject.org/">https://theopenroadproject.org/</a>)</li>
-                </ul>
-                 
-                <h2>Software Intern <span>Jun. 2020 - Sep. 2020</span></h2>
-                <p>Cadence Design Systems</p>
-                <ul>
-                  <li> Developed buffering methodologies for detailed balancing of clock trees in clock tree synthesis stage </li>
-                </ul>  
-                 
-                <h2>Physical Design Engineer <span>Feb. 2013 - Jul. 2017</span></h2>
-                <p>Design Technology Team, System LSI, Samsung</p>
-                <ul>
-                    <li> Developed physical design methodology for Samsung’s 10/14nm FinFET technology </br>
-                    -	Set up overall physical design flow from netlist to GDS</br>
-                    -	Developed and maintained reference scripts and technology files for automatic place-and-route</br>
-                    -	Understand complex design rules for 10/14nm process nodes</br></li>
-                    <li> Provided technical support and technology files for Samsung’s foundry customers</br>
-                    -	Supported Qualcomm, NVidia, AMD and ST Microelectronics</br>
-                    -	Collaborated with Synopsys, Cadence and Mentor Graphics</br></li>
-                    <li> Experienced SoC projects for silicon verification</br>
-                    -	Participated in physical design of a 3M+ instance design for the world’s 1st 10nm SoC project</br>
-                    -	Performed technical support for Samsung 10/14nm projects</br></li>
-                </ul>
+      </section>
 
-                <h2>Graduate Student Researcher <span>Feb. 2011 - Feb. 2013</span></h2>
-                <p>Smart Sensor Architecture Laboratory, Korea Advanced Institute of Science and Technology (KAIST)</p>
-                <ul>
-                    <li> Developed an energy management scheme for camera systems with solar-powered batteries and wireless visual sensor networks</li>
-                    <li> Participated in a research project supported by Global Frontier Program in Korea</li>
-                </ul>
-            </dd>
-            
-            <dd class="clear"></dd>
+      <section class="section my-services" data-section="section2">
+        <div class="container">
+          <div class="section-heading">
+            <h2>Research</h2>
+            <div class="line-dec"></div>
+            <span
+              >As a researcher, physical design area is in full of interesting and challenging problems, especially for the "next-generation" technologies.
+          My research interests lie in technology-aware physical design methodology, design-technology 
+              co-optimization (DTCO), open-source EDA and machine learning-based prediction/optimization for physical design.</span
+            >
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="service-item">
+                <div class="tech-icon service-icon"></div>
+                <h4>Technology-Aware Design Optimization</h4>
+                <p>
+                  As technology advances, we see a lot of challenges (but interesting) in the
+                  digital VLSI physical design. For example, new device structures (GAA, Nanosheet, etc.), 
+                  use of scaling boosters (Backside PDN, buried power rails, contact over active gate, etc.),
+                  large variations (in terms of leakage, timing, power,
+                  etc), complex and new design rules and
+                  large signoff margins (which means that new signoff methodology needed to reduce the margins).
+                  I have worked (and still work) on technology-aware (also known as manufacturing/process-aware)
+                  design optimization methodologies.
+                  My research interests lie in, but not limited to, technology-aware
+                  leakage/dynamic power reduction and performance improvement, IR-drop mitigation, routability
+                  evalutaion and enhancement at advanced technology nodes (sub-3nm).
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="service-item">
+                <div class="opt-icon service-icon"></div>
+                <h4>Design-Technology Co-Optimization (DTCO)</h4>
+                <p>
+                  Design-Technology Co-Optimization (DTCO) is beyond technology-aware design optimization.
+                  To be simple, technology should be well-defined with design considerations. Also, design
+                  should be optimized to be manufactured well and have best power, performance, area and cost
+                  (PPAC) of chips.
+                  At advanced nodes, DTCO is now getting more and more important both for foundry
+                  companies and chip designers to maximize their chip/technology competitiveness.
+                  There are so many technology and design options at an early stage of technology development.
+                  For example, there are too many combinations of standard-cell architectures to be evaluated
+                  along with technology definitions.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="service-item">
+                <div class="opensource-icon service-icon"></div>
+                <h4>Open-Source EDA</h4>
+                <p>
+                  Let's be honest. Academic research in the EDA area is not as hot as previously.
+                  I think the main reason is that everything is hidden under NDAs. All materials, PDKs, design rule
+                  manuals and IPs, of cutting edge technologies are hidden. All source codes from leading EDA
+                  companies are also hidden. To this end, academic researchers have an access to very limited (and old)
+                  ingredients for their research.
+                  In light of this "closed" community, 
+                  <a href="https://theopenroadproject.org/" target="_blank">the OpenROAD project</a> has been launched in 2018. 
+                  The goal of the project is to develop complete and fully open-sourced tools
+                  that achieve autonomous, 24-hour layout implementation (RTL to GDSII) with no humans in the loop.
+                  And yes, it is not as good as leading EDA tools for now, however, 
+                  this project provides solid foundations for academic research, including shared databases,
+                  parsers for industry-standard formats, timing analysis, baseline codes for research, etc.
+                  I spent 2+ years on this project and I hope the project has leveraged academic physical design research.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="service-item">
+                <div class="ml-icon service-icon"></div>
+                <h4>Machine Learning in Physical Design</h4>
+                <p>
+                  I am not a machine learning fanatic but machine learning is actually attractive for
+                  researchers.
+                  I am interested in several aspects in physical design to apply ML, especially where
+                  experienced human engineers are needed, e.g, floorplan, powerplan (PDN), macro placement,
+                  routing, timing and physical ECO, etc.
+                  Also, current commerical EDA tools are pretty good but still struggle with chicken-egg problems and 
+                  heusitic approaches.
+                  This means that we still have the way to global optimum of physical design problems for the best PPAC.
+                  Machine learning can be a big helper and some works at industry already showed some
+                  perpectives and proofs over the recent years.
+                  I have a couple of works which applied ML to PDN and DTCO and also keep my eyes on interesting ML
+                  works in physical design.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-12">
+              <div class="service-item">
+                <div class="program-icon service-icon"></div>
+                <h4>Programming Language and EDA Tool</h4>
+                <p>
+                For my research and industry experiences, my works are mostly written in C++, Tcl and Python.
+                Also, I have some experience with Perl in a couple of projects, and Matlab and Verilog HDL in
+                some class projects. 
+                In addition, I use software version control tools, (mostly Git but have some
+                experience with Perforce from my internship at Cadence).</br>
 
-            <dt>Technical Skills</dt>
-            <dd>
-                <h2> Research Skills</h2>
-                <ul>
-                    <li> Understand overall SoC design flows from RTL to GDS </li>
-                    <li> Developed novel SoC design methodologies to achieve best PPAC </li>
-                    <li> Pathfinding for advanced technology nodes (sub-3nm) </li>
-                </ul>  
-                 
-                <h2> Design Tools </h2>
-                <ul>
-                    <li> Place and Route: IC complier, IC compiler II, Innovus and Olympus-SoC </li>
-                    <li> Logic Synthesis: Design Complier and Genus </li>
-                    <li> Static Timing Analysis: Primetime and Tempus </li>
-                    <li> Signoff DRC: CalibreDRC and IC Validator </li>
-                    <li> Open-source tool: OpenROAD </li>
-                </ul>
+                I have hands-on experiences with digital VLSI physical design and verification tools 
+                of multiple EDA companies for 8+ years.
+                As a physical design engineer at Samsung, I was responsible for Synopsys IC Compiler and IC
+                Compiler II flows, and I also had a few
+                experiences with Nitro-SoC of Mentor Graphics (now, it is Siemens EDA). 
+                During my PhD, I mainly use Cadence Innovus as well as Synopsys IC Compiler II.
+                Also, I have experiences with the following tools: Synopsys Design Complier, Cadence Genus
+                (Logic Synthesis), Synopsys Primetime, Cadence Tempus (Static Timing Analysis),
+                Mentor CalibreDRC, Synopsys IC Validator (Signoff DRC), Ansys Redhawk, Cadence Voltus (EM/IR),
+                etc.
+                Last, I have developed, maintained and used many tools in the OpenROAD projects (Open-source
+                tools for RTL to GDSII).
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-                <h2> Language Skills </h2>
-                <ul>
-                    <li> Verilog HDL, Tcl/Tk, C/C++, Python, Perl, Matlab </li>
-                </ul>
-            </dd>
-            
-            <dd class="clear"></dd>
+      <section class="section my-work" data-section="section3">
+        <div class="container">
+          <div class="section-heading">
+            <h2>Publications</h2>
+            <div class="line-dec"></div>
+            <span
+              >The papers below have been made available in PDF format for easy access. Please be aware
+              that all papers are copyrighted by the organization responsible for the corresponding conference
+              or journal.</br>
+              <b>(**NOTE: All papers with Prof. Andrew B. Kahng, have authors listed in alphabetical order.)</b>
+              </span
+            >
+            </div>
 
-            <dt>Publications</dt>
-            <dd>
-                 <h2> Conference </h2>
-                 <ul>
-                   <b>(All papers with Prof. Andrew B. Kahng, have authors listed in alphabetical order)</b>
-                   <li> H. Fatemi, A. B. Kahng, <b><u>M. Kim</u></b> and J. Pineda de Gyvez, <b>"Optimal Bounded-Skew Steiner Trees to Minimize Maximum
-                        k-Active Dynamic Power"</b>, Proc. ACM/IEEE International Workshop on System-Level Interconnect Problems and Pathfinding, 2020, pp. 1-8. 
-                        <a href="https://vlsicad.ucsd.edu/Publications/Conferences/381/c381.pdf">(pdf)</a>
-                        <a href="https://vlsicad.ucsd.edu/Publications/Conferences/381/c381.pptx">(pptx)</a></li></li>
-                   <li> A. Rovinski, T. Ajayi, <b><u>M. Kim</u></b>, G. Wang and M. Saligane, <b>"Bridging Academic Open-Source EDA to RealWorld Usability"</b>,
-                        Proc. ACM/IEEE International Conference on Computer-Aided Design, 2020, pp. 1-7. 
-                        <a href="https://github.com/mik226/mik226.github.io/raw/master/ROVINSKI20.pdf">(pdf)</a>
-                        <a href="https://github.com/mik226/mik226.github.io/raw/master/ICCAD-2020-designadvisors-final-novid.pptx">(pptx)</a>
-                        <a href="https://m.youtube.com/watch?v=LUBGWBy9zJ4">(video)</a>
-                   <li> V. A. Chhabria, A. B. Kahng, <b><u>M. Kim</u></b>, U. Mallappa, S. S. Sapatnekar, B. Xu, <b>"Template-based PDN Synthesis
-                       in Floorplan and Placement Using Classifier and CNN Techniques"</b>, Proc. ACM/IEEE Asia and South Pacific
-Design Automation Conference, 2020, pp. 44-49. 
-                        <a href="https://vlsicad.ucsd.edu/Publications/Conferences/376/c376.pdf">(pdf)</a>
-                        <a href="https://vlsicad.ucsd.edu/Publications/Conferences/376/c376.pptx">(pptx)</a></li></li>
-                   <li> T. Ajayi, V. A. Chhabria, M. Fogaça, S. Hashemi, A. Hosny, A. B. Kahng, <b><u>M. Kim</u></b>, J. Lee, U. Mallappa, M.
-Neseem, G. Pradipta, S. Reda, M. Saligane, S. S. Sapatnekar, C. Sechen, M. Shalan, W. Swartz, L. Wang, Z.
-Wang, M. Woo and B. Xu, <b>"Toward an Open-Source Digital Flow: First Learnings from the OpenROAD
-  Project"</b>, Proc. ACM/IEEE Design Automation Conference, 2019, pp. 76:1-76:4. 
-                   <a href="https://vlsicad.ucsd.edu/Publications/Conferences/371/c371.pdf">(pdf)</a>
-                   <a href="https://vlsicad.ucsd.edu/Publications/Conferences/371/c371.pptx">(pptx)</a></li></li>
-                   <li> T. Ajayi, D. Blaauw, T.-B. Chan, C.-K. Cheng, V. A. Chhabria, D. K. Choo, M. Coltella, S. Dobre, R. Dreslinski,
-                     M. Fogaça, S. Hashemi, A. Hosny, A. B. Kahng, <b><u>M. Kim</u></b>, J. Li, Z. Liang, U. Mallappa, P. Penzes, G. Pradipta, S.
-Reda, A. Rovinski, K. Samadi, S. S. Sapatnekar, L. Saul, C. Sechen, V. Srinivas, W. Swartz, D. Sylvester, D.
-Urquhart, L. Wang, M. Woo and B. Xu, <b>"OpenROAD: Toward a Self- Driving, Open-Source Digital Layout
-  Implementation Tool Chain"</b>, Proc. Government Microcircuit Applications and Critical Technology Conference,
-2019, pp. 1105-1110. 
-                   <a href="https://vlsicad.ucsd.edu/Publications/Conferences/370/c370.pdf">(pdf)</a>
-                   <a href="https://vlsicad.ucsd.edu/Publications/Conferences/370/c370.pptx">(pptx)</a></li></li>
-                   <li> S. Heo, A. B. Kahng, <b><u>M. Kim</u></b>, L. Wang and C. Yang, <b>"Detailed Placement for IR Drop Mitigation by Power Staple Insertion in Sub-10nm VLSI"</b>, Proc. Design, Automation and Test in Europe, 2019, pp. 824-829. 
-                   <a href="https://vlsicad.ucsd.edu/Publications/Conferences/367/c367.pdf">(pdf)</a>
-                   <a href="https://vlsicad.ucsd.edu/Publications/Conferences/367/c367.pptx">(pptx)</a></li>
-                   <li> S. Heo, A. B. Kahng, <b><u>M. Kim</u></b> and L. Wang, <b>"Diffusion Break-Aware Leakage Power Optimization and Detailed Placement in Sub-10nm VLSI"</b>, Proc. Asia and South Pacific Design Automation Conference, 2019, pp. 550-556. <b>(nominated for Best Paper Award)</b>
-                   <a href="https://vlsicad.ucsd.edu/Publications/Conferences/366/c366.pdf">(pdf)</a>
-                   <a href="https://vlsicad.ucsd.edu/Publications/Conferences/366/c366.pptx">(pptx)</a></li></li>
-                   <li> <b><u>M. Kim</u></b>, C.-M. Kyung, K. Yi, <b>“An Energy Management Scheme for Solar-Powered Wireless Visual Sensor Networks Toward Uninterrupted Operations”</b>, Proc. International SoC Design Conference, 2013, pp. 23-26.
-                   <a href="https://github.com/mik226/mik226.github.io/raw/master/KimKY13.pdf">(pdf)</a></li>
+            </br></br>
+
+            <div class="main-pub">
+                <h4> Journal </h4>
+                <ul class="one">
+                    <li> <b>[J1]</b>  C.-K. Cheng, A. B. Kahng, H. Kim, <b><u>Minsoo Kim</u></b>, D. Lee, D. Park and M. Woo,
+                        <b>"PROBE2.0: A Systematic Framework for Routability Assessment from Technology to Design in Advanced Nodes"</b>,
+                        <i>IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems
+                            (2021)</i>, in revision.
+                    </li>
+                </ul>
+                </br></br>
+
+                <h4> Conference </h4>
+                <ul>
+                    <li> <b>[C9]</b>  C. Chidambaram, A. B. Kahng, <b><u>Minsoo Kim</u></b>, G. Nallapati, S. C. Song and M. Woo, 
+                    <b>"A Novel Framework for DTCO: Fast and Automatic Routability Assessment with Machine Learning for Sub-3nm Technology Options"</b>, 
+                    <i>Proc. IEEE Symposium on VLSI Technology</i>, 2021, pp. 1-2.
+                        </br>
+                        <a href="https://vlsicad.ucsd.edu/Publications/Conferences/384/c384.pdf" target="_blank">(pdf)</a>
+                        <!--<a href="https://vlsicad.ucsd.edu/Publications/Conferences/384/c384.pptx" target="_blank">(pptx)</a>-->
+                    </li>
+                    </br>
+
+                    
+                    <li> <b>[C8]</b>  H. Fatemi, A. B. Kahng, <b><u>Minsoo Kim</u></b> and J. Pineda de Gyvez, 
+                    <b>"Optimal Bounded-Skew Steiner Trees to Minimize Maximum k-Active Dynamic Power"</b>, 
+                    <i>Proc. ACM/IEEE International Workshop on System-Level Interconnect Problems and
+                        Pathfinding</i>, 2020, pp. 1-8. 
+                        </br>
+                        <a href="https://vlsicad.ucsd.edu/Publications/Conferences/381/c381.pdf" target="_blank">(pdf)</a>
+                        <a href="https://vlsicad.ucsd.edu/Publications/Conferences/381/c381.pptx" target="_blank">(pptx)</a>
+                    </li>
+                    </br>
+
+                    <li> <b>[C7]</b>  A. Rovinski, T. Ajayi, <b><u>Minsoo Kim</u></b>, G. Wang and M. Saligane, 
+                    <b>"Bridging Academic Open-Source EDA to Real World Usability"</b>,
+                    <i>Proc. ACM/IEEE International Conference on Computer-Aided Design</i>, 2020, pp. 1-7. 
+                        </br>
+                        <a href="https://mik226.github.io/RovinskiAKW20.pdf" target="_blank">(pdf)</a>
+                        <a href="https://mik226.github.io/RovinskiAKW20.pptx" target="_blank">(pptx)</a>
+                        <a href="https://m.youtube.com/watch?v=LUBGWBy9zJ4" target="_blank">(video)</a>
+                    </li>
+                    </br>
+
+                    <li> <b>[C6]</b>  V. A. Chhabria, A. B. Kahng, <b><u>Minsoo Kim</u></b>, U. Mallappa, S. S. Sapatnekar, B. Xu, 
+                    <b>"Template-based PDN Synthesis in Floorplan and Placement Using Classifier and CNN Techniques"</b>, 
+                    <i>Proc. ACM/IEEE Asia and South Pacific Design Automation Conference</i>, 2020, pp. 44-49. </br>
+                        <a href="https://vlsicad.ucsd.edu/Publications/Conferences/376/c376.pdf" target="_blank">(pdf)</a>
+                        <a href="https://vlsicad.ucsd.edu/Publications/Conferences/376/c376.pptx" target="_blank">(pptx)</a>
+                    </li>
+                    </br>
+
+                    <li> <b>[C5]</b>  T. Ajayi, V. A. Chhabria, M. Fogaça, S. Hashemi, A. Hosny, A. B. Kahng,
+                        <b><u>Minsoo Kim</u></b>, J. Lee, U. Mallappa, M. Neseem, G. Pradipta, S. Reda, M. Saligane, S. S. Sapatnekar, 
+                        C. Sechen, M. Shalan, W. Swartz, L. Wang, Z. Wang, M. Woo and B. Xu, 
+                        <b>"Toward an Open-Source Digital Flow: First Learnings from the OpenROAD Project"</b>, 
+                        <i>Proc. ACM/IEEE Design Automation Conference</i>, 2019, pp. 76:1-76:4. 
+                        </br>
+                        <a href="https://vlsicad.ucsd.edu/Publications/Conferences/371/c371.pdf" target="_blank">(pdf)</a>
+                        <a href="https://vlsicad.ucsd.edu/Publications/Conferences/371/c371.pptx" target="_blank">(pptx)</a>
+                   </li>
+                   </br>
+
+                   <li> <b>[C4]</b>  T. Ajayi, D. Blaauw, T.-B. Chan, C.-K. Cheng, V. A. Chhabria, D. K. Choo, M. Coltella, S. Dobre, 
+                   R. Dreslinski, M. Fogaça, S. Hashemi, A. Hosny, A. B. Kahng, <b><u>Minsoo Kim</u></b>, J. Li, Z. Liang, U. Mallappa, 
+                   P. Penzes, G. Pradipta, S. Reda, A. Rovinski, K. Samadi, S. S. Sapatnekar, L. Saul, C. Sechen, V. Srinivas, W. Swartz, 
+                   D. Sylvester, D. Urquhart, L. Wang, M. Woo and B. Xu,
+                   <b>"OpenROAD: Toward a Self- Driving, Open-Source Digital Layout Implementation Tool Chain"</b>, 
+                   <i>Proc. Government Microcircuit Applications and Critical Technology Conference</i>, 2019, pp. 1105-1110. </br>
+                   <a href="https://vlsicad.ucsd.edu/Publications/Conferences/370/c370.pdf" target="_blank">(pdf)</a>
+                   <a href="https://vlsicad.ucsd.edu/Publications/Conferences/370/c370.pptx" target="_blank">(pptx)</a>
+                   </li>
+                   </br>
+
+                   <li> <b>[C3]</b>  S. Heo, A. B. Kahng, <b><u>Minsoo Kim</u></b>, L. Wang and C. Yang, 
+                   <b>"Detailed Placement for IR Drop Mitigation by Power Staple Insertion in Sub-10nm VLSI"</b>, 
+                   <i>Proc. ACM/IEEE Design, Automation and Test in Europe</i>, 2019, pp. 824-829. </br>
+                   <a href="https://vlsicad.ucsd.edu/Publications/Conferences/367/c367.pdf" target="_blank">(pdf)</a>
+                   <a href="https://vlsicad.ucsd.edu/Publications/Conferences/367/c367.pptx" target="_blank">(pptx)</a>
+                   </li>
+                   </br>
+
+                   <li> <b>[C2]</b>  S. Heo, A. B. Kahng, <b><u>Minsoo Kim</u></b> and L. Wang, 
+                   <b>"Diffusion Break-Aware Leakage Power Optimization and Detailed Placement in Sub-10nm VLSI"</b>, 
+                   <i>Proc. ACM/IEEE Asia and South Pacific Design Automation Conference</i>, 2019, pp. 550-556. <b>(nominated for Best Paper Award)</b> </br>
+                   <a href="https://vlsicad.ucsd.edu/Publications/Conferences/366/c366.pdf" target="_blank">(pdf)</a>
+                   <a href="https://vlsicad.ucsd.edu/Publications/Conferences/366/c366.pptx" target="_blank">(pptx)</a>
+                   </li>
+                   </br>
+
+                   <li> <b>[C1]</b>  <b><u>Minsoo Kim</u></b>, C.-M. Kyung and K. Yi, 
+                   <b>"An Energy Management Scheme for Solar-Powered Wireless Visual Sensor Networks Toward Uninterrupted Operations"</b>, 
+                   <i>Proc. IEEE International SoC Design Conference</i>, 2013, pp. 23-26.</br>
+                   <a href="https://mik226.github.io/KimKY13.pdf" target="_blank">(pdf)</a>
+                   </li>
+                   </br>
                  </ul>
-            </dd>
-        </dl>
-        
-        <div class="clear"></div>
-    
-    </div>
+            </div>
+                
+          <!--
+          <div class="row">
+            <div class="isotope-wrapper">
+              <form class="isotope-toolbar">
+                <label
+                  ><input
+                    type="radio"
+                    data-type="*"
+                    checked=""
+                    name="isotope-filter"
+                  />
+                  <span>all</span></label
+                >
+                <label
+                  ><input
+                    type="radio"
+                    data-type="people"
+                    name="isotope-filter"
+                  />
+                  <span>people</span></label
+                >
+                <label
+                  ><input
+                    type="radio"
+                    data-type="nature"
+                    name="isotope-filter"
+                  />
+                  <span>nature</span></label
+                >
+                <label
+                  ><input
+                    type="radio"
+                    data-type="animals"
+                    name="isotope-filter"
+                  />
+                  <span>animals</span></label
+                >
+              </form>
+              <div class="isotope-box">
+                <div class="isotope-item" data-type="nature">
+                  <figure class="snip1321">
+                    <img
+                      src="assets/images/portfolio-01.jpg"
+                      alt="sq-sample26"
+                    />
+                    <figcaption>
+                      <a
+                        href="assets/images/portfolio-01.jpg"
+                        data-lightbox="image-1"
+                        data-title="Caption"
+                        ><i class="fa fa-search"></i
+                      ></a>
+                      <h4>First Title</h4>
+                      <span>free to use our template</span>
+                    </figcaption>
+                  </figure>
+                </div>
 
-</body>
+                <div class="isotope-item" data-type="people">
+                  <figure class="snip1321">
+                    <img
+                      src="assets/images/portfolio-02.jpg"
+                      alt="sq-sample26"
+                    />
+                    <figcaption>
+                      <a
+                        href="assets/images/portfolio-02.jpg"
+                        data-lightbox="image-1"
+                        data-title="Caption"
+                        ><i class="fa fa-search"></i
+                      ></a>
+                      <h4>Second Title</h4>
+                      <span>please tell your friends</span>
+                    </figcaption>
+                  </figure>
+                </div>
 
+                <div class="isotope-item" data-type="animals">
+                  <figure class="snip1321">
+                    <img
+                      src="assets/images/portfolio-03.jpg"
+                      alt="sq-sample26"
+                    />
+                    <figcaption>
+                      <a
+                        href="assets/images/portfolio-03.jpg"
+                        data-lightbox="image-1"
+                        data-title="Caption"
+                        ><i class="fa fa-search"></i
+                      ></a>
+                      <h4>Item Third</h4>
+                      <span>customize anything</span>
+                    </figcaption>
+                  </figure>
+                </div>
+
+                <div class="isotope-item" data-type="people">
+                  <figure class="snip1321">
+                    <img
+                      src="assets/images/portfolio-04.jpg"
+                      alt="sq-sample26"
+                    />
+                    <figcaption>
+                      <a
+                        href="assets/images/portfolio-04.jpg"
+                        data-lightbox="image-1"
+                        data-title="Caption"
+                        ><i class="fa fa-search"></i
+                      ></a>
+                      <h4>Item Fourth</h4>
+                      <span>Re-distribution not allowed</span>
+                    </figcaption>
+                  </figure>
+                </div>
+
+                <div class="isotope-item" data-type="nature">
+                  <figure class="snip1321">
+                    <img
+                      src="assets/images/portfolio-05.jpg"
+                      alt="sq-sample26"
+                    />
+                    <figcaption>
+                      <a
+                        href="assets/images/portfolio-05.jpg"
+                        data-lightbox="image-1"
+                        data-title="Caption"
+                        ><i class="fa fa-search"></i
+                      ></a>
+                      <h4>Fifth Awesome</h4>
+                      <span>Ut sollicitudin risus</span>
+                    </figcaption>
+                  </figure>
+                </div>
+
+                <div class="isotope-item" data-type="animals">
+                  <figure class="snip1321">
+                    <img
+                      src="assets/images/portfolio-06.jpg"
+                      alt="sq-sample26"
+                    />
+                    <figcaption>
+                      <a
+                        href="assets/images/portfolio-06.jpg"
+                        data-lightbox="image-1"
+                        data-title="Caption"
+                        ><i class="fa fa-search"></i
+                      ></a>
+                      <h4>Awesome Sixth</h4>
+                      <span>Donec eget massa ante</span>
+                    </figcaption>
+                  </figure>
+                </div>
+              </div>
+            </div>
+          </div>-->
+        </div>
+      </section>
+
+
+      <section class="section contact-me" data-section="section4">
+        <div class="container">
+          <div class="section-heading">
+            <h2>Contact Me</h2>
+            <div class="line-dec"></div>
+            <h4><span>E-mail Address</br><a href="mailto:mik226@ucsd.edu">mik226@ucsd.edu</a></span></h4></br>
+
+            <h4><span>Work Address</span></h4>
+            Computer Science and Engineering Building (EBU3B), Room 2144 </br>
+            University of California, San Diego </br>
+            9500 Gilman Drive, La Jolla, CA, USA, 92093-0404 </br></br>
+
+            <h4><span>Curriculum Vitae</br>
+            <a href="https://mik226.github.io/CV_Minsoo_Kim_Apr21.pdf" target="_blank">Download</a></span></h4>
+            </br>
+          </div>
+<!--
+          <div class="row">
+            <div class="right-content">
+              <div class="container">
+                <form id="contact" action="" method="post">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <fieldset>
+                        <input
+                          name="name"
+                          type="text"
+                          class="form-control"
+                          id="name"
+                          placeholder="Your name..."
+                          required=""
+                        />
+                      </fieldset>
+                    </div>
+                    <div class="col-md-6">
+                      <fieldset>
+                        <input
+                          name="email"
+                          type="text"
+                          class="form-control"
+                          id="email"
+                          placeholder="Your email..."
+                          required=""
+                        />
+                      </fieldset>
+                    </div>
+                    <div class="col-md-12">
+                      <fieldset>
+                        <input
+                          name="subject"
+                          type="text"
+                          class="form-control"
+                          id="subject"
+                          placeholder="Subject..."
+                          required=""
+                        />
+                      </fieldset>
+                    </div>
+                    <div class="col-md-12">
+                      <fieldset>
+                        <textarea
+                          name="message"
+                          rows="6"
+                          class="form-control"
+                          id="message"
+                          placeholder="Your message..."
+                          required=""
+                        ></textarea>
+                      </fieldset>
+                    </div>
+                    <div class="col-md-12">
+                      <fieldset>
+                        <button type="submit" id="form-submit" class="button">
+                          Send Message
+                        </button>
+                      </fieldset>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>-->
+          </div>
+      </section>
+
+    <section class="section blog" data-section="section5">
+        <div class="container">
+            <div class="section-heading">
+                <h2>Blog</h2>
+                <div class="line-dec"></div>
+            </div>
+            
+            <!-- POST1 -->
+            <div class="left-image-post">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="left-image">
+                    <img src="assets/images/newhomepage.jpeg" alt="" />
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="right-text">
+                    <h4>New Personal Website -- minsookim.me</h4>
+                    <p>
+                      My website has been renewed ! I have also enabled new domain, minsookim.me, for easy access.
+                      All materials are uploaded in my Github repository, which means it is open-sourced ! 
+                      You can now access my website through mik226.github.io or minsookim.me.
+                    </p>
+                    <div class="white-button">
+                      <a href="post1.html">Read More</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+        </div>
+    </section>
+
+</div>
+    <!-- Scripts -->
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <script src="assets/js/isotope.min.js"></script>
+    <script src="assets/js/owl-carousel.js"></script>
+    <script src="assets/js/lightbox.js"></script>
+    <script src="assets/js/custom.js"></script>
+    <script>
+      //according to loftblog tut
+      $(".main-menu li:first").addClass("active");
+
+      var showSection = function showSection(section, isAnimate) {
+        var direction = section.replace(/#/, ""),
+          reqSection = $(".section").filter(
+            '[data-section="' + direction + '"]'
+          ),
+          reqSectionPos = reqSection.offset().top - 0;
+
+        if (isAnimate) {
+          $("body, html").animate(
+            {
+              scrollTop: reqSectionPos
+            },
+            800
+          );
+        } else {
+          $("body, html").scrollTop(reqSectionPos);
+        }
+      };
+
+      var checkSection = function checkSection() {
+        $(".section").each(function() {
+          var $this = $(this),
+            topEdge = $this.offset().top - 80,
+            bottomEdge = topEdge + $this.height(),
+            wScroll = $(window).scrollTop();
+          if (topEdge < wScroll && bottomEdge > wScroll) {
+            var currentId = $this.data("section"),
+              reqLink = $("a").filter("[href*=\\#" + currentId + "]");
+            reqLink
+              .closest("li")
+              .addClass("active")
+              .siblings()
+              .removeClass("active");
+          }
+        });
+      };
+
+      $(".main-menu").on("click", "a", function(e) {
+        e.preventDefault();
+        showSection($(this).attr("href"), true);
+      });
+
+      $(window).scroll(function() {
+        checkSection();
+      });
+    </script>
+  </body>
 </html>
