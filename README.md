@@ -1,2 +1,2 @@
 # Personal Website
-Please visit https://mik226.github.io or https://minsookim.me
+Please visit my personal website through https://mik226.github.io or https://minsookim.me.
