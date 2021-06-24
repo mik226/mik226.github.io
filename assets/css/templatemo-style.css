@@ -690,6 +690,11 @@ button:hover {
     float: right; 
 }
 
+.service-item .qc-icon {
+    background-image: url(../images/qc_logo.jpeg);
+    float: right; 
+}
+
 
 /* My Work */
 
