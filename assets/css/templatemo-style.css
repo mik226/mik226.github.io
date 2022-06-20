@@ -695,6 +695,11 @@ button:hover {
     float: right; 
 }
 
+.service-item .nv-icon {
+    background-image: url(../images/nvidia_logo.jpg);
+    float: right; 
+}
+
 
 /* My Work */
 
